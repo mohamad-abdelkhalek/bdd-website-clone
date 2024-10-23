@@ -20,6 +20,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    font-family: arial;
   }
   
   navbar div {
@@ -113,4 +114,74 @@
     font-size: 45px;
     font-family: fantasy;
     align-content: center;
+  }
+
+  .cards-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 50px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .card-image {
+    background-color: transparent;
+    height: 100px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+  }
+
+  .card-1 {
+    background-image: url('./../assets/1.png');
+  }
+
+  .card-2 {
+    background-image: url('./../assets/2.png');
+  }
+
+  .card-3 {
+    background-image: url('./../assets/3.png');
+  }
+
+  .card-4 {
+    background-image: url('./../assets/4.png');
+  }
+
+  .card-5 {
+    background-image: url('./../assets/5.png');
+  }
+
+  .card h2 {
+    padding: 10px;
+  }
+
+  .card h2, p {
+    padding: 10px;
+    justify-content: center;
+    font-family: arial;
+  }
+
+  .card:hover {
+    background-color: rgb(204, 253, 253);
+    transition: all 0.5s ease;
   }

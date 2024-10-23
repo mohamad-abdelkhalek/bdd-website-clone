@@ -420,3 +420,38 @@
   width: 100%;
   border-bottom: 1px solid #b9b9b9;
 }
+
+.testi-img1 {
+ background-image: url('./../assets/testi1.jpg');
+}
+
+.testi-img2 {
+  background-image: url('./../assets/testi2.jpg');
+ }
+
+ .testi-img3 {
+  background-image: url('./../assets/testi3.jpg');
+ }
+
+ .testimonial-sec {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-sec h2 {
+  margin-right: 20px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.testi-img {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.testi-img div {
+  width: 250px;
+  height: 190px;
+  background-size: cover;
+  margin-bottom: 50px;
+}

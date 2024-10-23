@@ -9,7 +9,6 @@
     width: auto;
     margin-left: 150px;
   }
-
   navbar {
     background-color: transparent;
     padding: 10px 20px;
@@ -20,7 +19,6 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    font-family: arial;
   }
   
   navbar div {
@@ -455,3 +453,62 @@
   background-size: cover;
   margin-bottom: 50px;
 }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  font-family: arial;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; /* Flexbox for the columns */
+  justify-content: space-between; /* Space between the columns */
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 150px;
+}
+
+.footer-column ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0;
+  display: block; /* Ensure the list is block-level */
+}
+
+.footer-column ul li {
+  color: #ccc;
+  /* margin-bottom: 10px; */
+  margin: 10px;
+  display: block; /* Each list item is block-level to stack vertically */
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+}
+
+.app-buttons img {
+  justify-content: right;
+  width: 90px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-bottom{
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+

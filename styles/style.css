@@ -360,3 +360,63 @@
     padding-top: 20px;
     color: rgb(0, 0, 0);
   }
+
+  .trending-card-1 {
+    background-image: url('./../assets/wisam.jpg');
+  }
+
+  .trending-card-2 {
+    background-image: url('./../assets/woman.jpg');
+  }
+
+  .trending-card-3 {
+    background-image: url('./../assets/rabih.jpg');
+  }
+
+  .trend-img {
+    background-color: transparent;
+    height: 250px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .trend-card {
+    background: white;
+    font-size: 12px;
+    font-family: arial;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .trending-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .trending-container h2 {
+   font-size: 15px;
+  }
+
+  .trending-container p {
+    text-align: left;
+  }
+
+ .visit-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+ }
+
+ .divider {
+  margin-top: 15px;
+  width: 100%;
+  border-bottom: 1px solid #b9b9b9;
+}

@@ -274,3 +274,89 @@
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+  .app-download {
+    /* display: flex; */
+    text-align: center;
+    font-family: Arial;
+    color: rgb(92, 92, 92);
+    font-size: 15px;   
+  }
+
+  .app-imgs {
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .app-imgs img {
+    height: 60px;
+    width: 200px;
+  }
+
+  .pref-sec {
+    text-align: center;
+    font-size: 15px;
+    background-image: url('./../assets/parallax-light.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-attachment: fixed; 
+    background-color: #000; 
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    align-items: center; /* Center items horizontally */
+    /* flex-wrap: nowrap; */
+  }
+
+  .pref-card-img1 {
+    background-image: url('./../assets/home_community.png');
+  }
+
+  .pref-card-img2 {
+    background-image: url('./../assets/home_events.png');
+  }
+
+  .pref-card-img3 {
+    background-image: url('./../assets/home_support.png');
+  }
+
+  .pref-card-img4 {
+    background-image: url('./../assets/home_vc.png');
+  }
+
+  .pref-sec h2 {
+    margin: 70px;
+    padding-top: 40px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .pref-img {
+    background-color: transparent;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .pref-card {
+    margin: 20px;
+    font-family: arial;
+
+  }
+
+  .hub-title {
+    text-align: center;
+    font-family: fantasy;
+    margin: 40px;
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+  }

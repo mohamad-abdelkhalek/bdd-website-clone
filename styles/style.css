@@ -213,3 +213,64 @@
     max-width: 700px;
     margin-bottom: 50px;
   }
+
+  .communities-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    margin: 50px;
+    font-family: fantasy;
+  }
+
+  .girl-working-img {
+    height: 400px;
+    width: 450px;
+  }
+
+  .community-cards {
+    background: white;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-family: arial;
+    font-size: 30px;
+  }
+
+
+  .community-cards h3 {
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+
+    .community-cards ul {
+      list-style: none;
+      padding: 10px;
+      margin: 10px; 
+      display: block; 
+  }
+  
+  .community-cards ul li {
+      display: block; 
+      font-size: 14px;
+      margin: 20px 0;
+  }
+  
+  .community-cards ul li::before {
+      content: "\25B7";
+      color: #0D73E7;
+      margin-right: 8px;
+  }
+
+  .community-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
